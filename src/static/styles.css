@@ -142,3 +142,36 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants h5 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.participants ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.participant-item {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+  background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(245,245,245,0.6));
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.participants.info {
+  color: #666;
+  font-size: 14px;
+  padding: 6px 0;
+}
