@@ -156,8 +156,8 @@ footer {
 }
 
 .participants ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
 }
 
@@ -168,6 +168,23 @@ footer {
   background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(245,245,245,0.6));
   padding: 6px 8px;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 .participants.info {
